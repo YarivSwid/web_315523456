@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ContactUs</title>
+    <meta charset="UTF-8">
+    <script defer src="https://kit.fontawesome.com/8f059f76f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/PiggyBankCSS.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="../static/PiggyBank.js"></script>
+</head>
+<body class="Clean">
+    <header class="navbar">
+<!--        <a class="nav" href="../views/Piggy_Analytics.html"><i class="fas fa-funnel-dollar	"></i> Piggy Analytics </a>
+        <a class="nav" href="../views/Piggy_Accounting.html"><i class="fas fa-balance-scale-right"></i> Piggy Accounting </a>-->
+        <a class="nav" href="../views/PiggyBank.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a class="nav" href="../views/aboutUs.html"><i class="fas fa-users"></i> About US</a>
+        <a class="nav" href="../views/ContactUs.html"><i class="fa fa-fw fa-envelope"></i> Contact US </a>
+    </header>
+    <div class="Form">
+    <div class="FormDiv">
+      <img src="../static/Pictures/PiggyLogo.png" alt="Piggy Accounting" width=50% height=10% class="picturesMain">
+
+      <form id="form" class="SignUpForm" action="../views/PiggyBank.html"  name="SignUpForm" method="post" >
+          <p class="textTour2">Please fill in the required information,<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp so we can return to you quickly.<br>
+          </p>
+        <label for="firstname">First Name: </label>
+        <input style="text-align:left" type="text" id="firstname" name="firstname" placeholder="Please insert your first name" minlength="2" required>
+        <label for="lastname">Last Name: </label>
+        <input style="text-align:left" type="text" id="lastname" name="lastname" placeholder="Please insert your last name" minlength="2" required>
+        <label for="Email">Email: </label>
+        <input style="text-align:left" type="email" id="email" name="email" placeholder="Please insert your email" required>
+        <label for="Details">Details: </label>
+        <textarea style="text-align:left" type="texr" id="Details" name="Details" placeholder="..." minlength="4" style="height:170px" required></textarea>
+        <button class="butt" type="submit" onclick="submitForm()">Submit</button>
+          <img src="../static/Pictures/PiggyBook.png" alt="Piggy Accounting" width=50% height=50% class="picturesMain">
+          <br>
+      </form>
+    </div>
+    <div class="PicDiv">
+      <img src="../static/Pictures/Moznaim.png" alt="Piggy Accounting" width=80% height=100% class="picturesMain">
+
+    </div>
+  </div>
+
+
+  <footer>
+      <p class="copyright">Piggy Bank Accounting © 2022</p>
+
+      <p class="email">Feel free to contact: info@PiggyBank.com</p>
+  </footer>
+</body>
+</html>
