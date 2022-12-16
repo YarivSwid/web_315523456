@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de659f74-746c-48f9-9b6a-f601e174d12e" name="Changes" comment="add temp files">
+    <list default="true" id="de659f74-746c-48f9-9b6a-f601e174d12e" name="Changes" comment="add files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_315523456/Pictures/AccountingPro.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_315523456/Pictures/Dashboard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_315523456/PiggyBank.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_315523456/PiggyBank.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_315523456/PiggyBankCSS.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_315523456/views/PiggyBank.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_315523456/views/PiggyBank.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,7 @@
       <workItem from="1670598763642" duration="18306000" />
       <workItem from="1670871585109" duration="23019000" />
       <workItem from="1671020245871" duration="43282000" />
-      <workItem from="1671209742805" duration="2299000" />
+      <workItem from="1671209742805" duration="3494000" />
     </task>
     <task id="LOCAL-00001" summary="check">
       <created>1668255083446</created>
@@ -125,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669492210455</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add files">
+      <created>1671212236831</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671212236831</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +150,7 @@
     <MESSAGE value="Add part 1" />
     <MESSAGE value="add changes in p1" />
     <MESSAGE value="add temp files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add temp files" />
+    <MESSAGE value="add files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add files" />
   </component>
 </project>
