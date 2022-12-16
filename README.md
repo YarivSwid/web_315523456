@@ -1,8 +1,8 @@
 # web_315523456
 Yariv Swid: part 2 
-#Welcome to Piggy Bank! this is the home page
+Welcome to Piggy Bank! this is the home page
 <img width="1728" alt="Screen Shot 2022-12-16 at 21 29 30" src="https://user-images.githubusercontent.com/89691954/208175707-593e8190-3707-4416-bed4-b572ea5da594.png">
-
+If you click on the active nav bar you can contact us through this window:
 
 <img width="1727" alt="Screen Shot 2022-12-16 at 21 30 27" src="https://user-images.githubusercontent.com/89691954/208175638-930abad5-a3f5-4471-8ab0-accb932b8659.png">
 <img width="1727" alt="Screen Shot 2022-12-16 at 21 29 45" src="https://user-images.githubusercontent.com/89691954/208175712-40b89686-9d99-4816-bd90-5239c25c9d1d.png">
