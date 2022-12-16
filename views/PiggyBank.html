@@ -9,56 +9,52 @@
     <script  defer src="../static/PiggyBank.js"></script>
 </head>
 <body class="PiggyBank">
-
-<header class="navbar">
     <header class="navbar">
-        <a class="nav" href="../views/PiggyBank.html"><i class="fa fa-fw fa-home"></i> Home</a>
-        <a class="nav" href="../views/aboutUs.html"><i class="fas fa-users"></i> About US</a>
-        <a class="nav" href="../views/ContactUs.html"><i class="fa fa-fw fa-envelope"></i> Contact US </a>
+        <header class="navbar">
+            <a class="nav" href="../views/PiggyBank.html"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a class="nav" href="../views/aboutUs.html"><i class="fas fa-users"></i> About US</a>
+            <a class="nav" href="../views/ContactUs.html"><i class="fa fa-fw fa-envelope"></i> Contact US </a>
+        </header>
     </header>
-</header>
-<div id="LoginSignUp" style="display: inline" >
-<p class="TextForPiggyWelcome">
-    Welcome to Piggy Bank Accounting,<br>
-    &nbsp the website which will make your expenses smarter<br>
-</p>
-<button id="LoginButton" class=butt onclick=openForm()>Login</button>
-<button class=butt onclick="location.href='../views/SignUpPage.html';">Sign Up</button>
-</div>
-
-<div id="gridContainer" style="display: none;margin-top: 10%">
-    <div>
-        <form class="LoginForm" action="../views/Piggy_Accounting.html" name="myForm" method="post" >
-            <label for="Email">Email: </label><br>
-            <input style="text-align:left" type="email" id="Email" placeholder="Please insert your email"  required><br>
-            <label for="Password">Password: </label><br>
-            <input style="text-align:left" type="password" id="password" placeholder="Please insert your password" minlength="8" required><br>
-            <button class="ConfirmationButton" type="submit" value="Submit" onclick="submitFormLogin()">Submit</button>
-        </form>
-        <p class="textTour2" style="display: inline"> Doesnt have account? then:</p>
-        <button class=SignupButton onclick="location.href='../views/SignUpPage.html';">Sign Up</button>
-    </div>
-</div>
-
-<div id="grid-container" style="display: inline">
-    <div class="grid-item" >
-        <img src="../static/Pictures/Dashboard.jpeg" style= "display: block" alt="Piggy Analytics" width=25% height=20% class="picturesMain">
-        <a class="active" style="display: inline"><i class="fas fa-funnel-dollar	"></i> Piggy Analytics </a>
-        <p class="homePic" style="display: inline">
-            is a platform <br> &nbsp &nbsp &nbsp that wil help you find interesting insights <br>
+    <div id="LoginSignUp" style="display: inline" >
+        <p class="TextForPiggyWelcome">
+            Welcome to Piggy Bank Accounting,<br>
+            &nbsp the website which will make your expenses smarter<br>
         </p>
+        <button id="LoginButton" class=butt onclick=openForm()>Login</button>
+        <button class=butt onclick="location.href='../views/SignUpPage.html';">Sign Up</button>
     </div>
-    <div class="grid-item" >
-        <img src="../static/Pictures/AccountingPro.jpeg" style= "display: block" alt="Piggy Accounting" width=20% height=4% class="picturesMain">
-        <a class="active"  ><i class="fas fa-balance-scale-right"></i> Piggy Accounting </a>
-        <p class="homePic" style="display: inline">
-            will help you add expenses and incomes,<br> &nbsp &nbsp &nbsp so we can help you with Piggy Accounting <br>
-        </p>
+    <div id="gridContainer" style="display: none;margin-top: 10%">
+        <div>
+            <form class="LoginForm" action="../views/Piggy_Accounting.html" name="myForm" method="post" >
+                <label for="Email">Email: </label><br>
+                <input style="text-align:left" type="email" id="Email" placeholder="Please insert your email"  required><br>
+                <label for="Password">Password: </label><br>
+                <input style="text-align:left" type="password" id="password" placeholder="Please insert your password" minlength="8" required><br>
+                <button class="ConfirmationButton" type="submit" value="Submit" onclick="submitFormLogin()">Submit</button>
+            </form>
+            <p class="textTour2" style="display: inline"> Doesnt have account? then:</p>
+            <button class=SignupButton onclick="location.href='../views/SignUpPage.html';">Sign Up</button>
+        </div>
     </div>
-</div>
-
-<footer>
-    <p class="copyright">Piggy Bank Accounting © 2022</p>
-</footer>
+    <div id="grid-container" style="display: inline">
+        <div class="grid-item" >
+            <img src="../static/Pictures/Dashboard.jpeg" style= "display: block" alt="Piggy Analytics" width=25% height=20% class="picturesMain">
+            <a class="active" style="display: inline"><i class="fas fa-funnel-dollar	"></i> Piggy Analytics </a>
+            <p class="homePic" style="display: inline">
+                is a platform <br> &nbsp &nbsp &nbsp that wil help you find interesting insights <br>
+            </p>
+        </div>
+        <div class="grid-item" >
+            <img src="../static/Pictures/AccountingPro.jpeg" style= "display: block" alt="Piggy Accounting" width=20% height=4% class="picturesMain">
+            <a class="active"  ><i class="fas fa-balance-scale-right"></i> Piggy Accounting </a>
+            <p class="homePic" style="display: inline">
+                will help you add expenses and incomes,<br> &nbsp &nbsp &nbsp so we can help you with Piggy Accounting <br>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p class="copyright">Piggy Bank Accounting © 2022</p>
+    </footer>
 </body>
 </html>

@@ -1,8 +1,4 @@
 
-    function addDataResults(){
-        for(i=0;i<tripsResults.length;i++){
-        }
-    }
     function addRowDo(i){
         let table = document.getElementById("AccountingTable");
         let row = table.insertRow(0);

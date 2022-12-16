@@ -10,42 +10,35 @@
 </head>
 <body class="Clean">
     <header class="navbar">
-        <!--        <a class="nav" href="../views/Piggy_Analytics.html"><i class="fas fa-funnel-dollar	"></i> Piggy Analytics </a>
-                <a class="nav" href="../views/Piggy_Accounting.html"><i class="fas fa-balance-scale-right"></i> Piggy Accounting </a>-->
         <a class="nav" href="../views/PiggyBank.html"><i class="fa fa-fw fa-home"></i> Home</a>
         <a class="nav" href="../views/aboutUs.html"><i class="fas fa-users"></i> About US</a>
         <a class="nav" href="../views/ContactUs.html"><i class="fa fa-fw fa-envelope"></i> Contact US </a>
     </header>
-
-<div class="Form">
-
-    <div class="FormDiv">
-        <img src="../static/Pictures/PiggyLogo.png" alt="Piggy Accounting" width=50% height=10% class="picturesMain">
-        <p class="textTour2">Please fill in the required information:<br>
-        </p>
-
-        <form class="SignUpForm" action="../views/PiggyBank.html"  name="SignUpForm" method="post" >
-            <label for="firstname">First Name: </label>
-            <input style="text-align:left" type="text" id="firstname" placeholder="Please insert your first name" name="firstname" onblur="checkName('firstname')" required>
-            <label for="lastname">Last Name: </label>
-            <input style="text-align:left" type="text" id="lastname" placeholder="Please insert your last name" name="lastname" onblur="checkName('lastname')" required>
-            <label for="phonenumer">Phone Number: </label>
-            <input style="text-align:left" type="number" id="phonenumer" placeholder="Please insert your phone number" name="phonenumer" onblur="checkPhone('phonenumer')" required>
-            <label for="email">Email: </label>
-            <input style="text-align:left" type="email" id="email" placeholder="Please insert your email"  name="emailaddress" required>
-            <button class="butt" type="submit" onclick="submitSignup()">Submit</button>
-        </form>
-        <img src="../static/Pictures/Case.png" alt="Piggy Accounting" width=10% height=10% class="picturesMain">
-        <br>
-
+    <div class="Form">
+        <div class="FormDiv">
+            <img src="../static/Pictures/PiggyLogo.png" alt="Piggy Accounting" width=50% height=10% class="picturesMain">
+            <p class="textTour2">Please fill in the required information:<br>
+            </p>
+            <form class="SignUpForm" action="../views/PiggyBank.html"  name="SignUpForm" method="post" >
+                <label for="firstname">First Name: </label>
+                <input style="text-align:left" type="text" id="firstname" placeholder="Please insert your first name" name="firstname" onblur="checkName('firstname')" required>
+                <label for="lastname">Last Name: </label>
+                <input style="text-align:left" type="text" id="lastname" placeholder="Please insert your last name" name="lastname" onblur="checkName('lastname')" required>
+                <label for="phonenumer">Phone Number: </label>
+                <input style="text-align:left" type="number" id="phonenumer" placeholder="Please insert your phone number" name="phonenumer" onblur="checkPhone('phonenumer')" required>
+                <label for="email">Email: </label>
+                <input style="text-align:left" type="email" id="email" placeholder="Please insert your email"  name="emailaddress" required>
+                <button class="butt" type="submit" onclick="submitSignup()">Submit</button>
+            </form>
+            <img src="../static/Pictures/Case.png" alt="Piggy Accounting" width=10% height=10% class="picturesMain">
+            <br>
+        </div>
+        <div class="PicDiv">
+            <img src="../static/Pictures/Piggy%20stamp.png" alt="Piggy Accounting" width=80% height=100% class="picturesMain">
+        </div>
     </div>
-    <div class="PicDiv">
-        <img src="../static/Pictures/Piggy%20stamp.png" alt="Piggy Accounting" width=80% height=100% class="picturesMain">
-
-</div>
-</div>
-<footer>
-    <p class="copyright">Piggy Bank Accounting © 2022</p>
-</footer>
+    <footer>
+        <p class="copyright">Piggy Bank Accounting © 2022</p>
+    </footer>
 </body>
 </html>
