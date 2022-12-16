@@ -13,7 +13,8 @@ In order to use Piggy Bank please click login on the home page and fill the fiel
 If u dont have account click on signup:
 <img width="1728" alt="Screen Shot 2022-12-16 at 21 30 12" src="https://user-images.githubusercontent.com/89691954/208175733-f83a7d97-6f9a-4866-a65a-43f5fd2c3193.png">
 
-
+After you logged in successfuly you will get to the Piggy Account Page, 
+here you can fill your expenses and incomes and watch in the Accounting table and the Summary table your data.
 <img width="1727" alt="Screen Shot 2022-12-16 at 21 30 27" src="https://user-images.githubusercontent.com/89691954/208175638-930abad5-a3f5-4471-8ab0-accb932b8659.png">
 
 
