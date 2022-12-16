@@ -16,6 +16,11 @@ If u dont have account click on signup:
 After you logged in successfuly you will get to the Piggy Account Page, 
 here you can fill your expenses and incomes and watch in the Accounting table and the Summary table your data.
 <img width="1727" alt="Screen Shot 2022-12-16 at 21 30 27" src="https://user-images.githubusercontent.com/89691954/208175638-930abad5-a3f5-4471-8ab0-accb932b8659.png">
+In the Summary table you can watch summary that we Piggy Bank deliver.
+<img width="1728" alt="Screen Shot 2022-12-16 at 21 30 36" src="https://user-images.githubusercontent.com/89691954/208177089-8a3cb8b5-371b-411a-9b3f-030e4f0f746b.png">
+If you click on the Piggy Analytics button you will get into the Piggy Analytics dashboard.
+In the Piggy Analytics dashboard you can watch several KPI's that will help you to SAVE MONEY.
+<img width="1727" alt="Screen Shot 2022-12-16 at 21 30 46" src="https://user-images.githubusercontent.com/89691954/208177307-c600d3d4-32d0-4e6c-a7c8-2588bff70da7.png">
+You can always move between the Piggy Accounting and Piggy Analytics windows by pressing the button on the top of the pages.
 
-
-<img width="1727" alt="Screen Shot 2022-12-16 at 21 30 27" src="https://user-images.githubusercontent.com/89691954/208175744-5599b1b4-45d3-4f26-8cdf-ea45df071f61.png">
+Thank You and we hope you will use this website so we can help you save money! 
