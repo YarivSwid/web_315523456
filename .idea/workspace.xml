@@ -4,14 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de659f74-746c-48f9-9b6a-f601e174d12e" name="Changes" comment="check" />
+    <list default="true" id="de659f74-746c-48f9-9b6a-f601e174d12e" name="Changes" comment="add temp files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_315523456/Pictures/AccountingPro.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_315523456/Pictures/Dashboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_315523456/PiggyBank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_315523456/PiggyBank.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_315523456/PiggyBankCSS.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web_315523456" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,18 +38,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yswid/IdeaProjects/Web_315523456/web_315523456&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web_315523456" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,7 +69,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668254926907</updated>
-      <workItem from="1668254928147" duration="359000" />
+      <workItem from="1668254928147" duration="3083000" />
+      <workItem from="1668675602812" duration="629000" />
+      <workItem from="1668952405168" duration="598000" />
+      <workItem from="1669479452805" duration="156000" />
+      <workItem from="1669479645951" duration="69000" />
+      <workItem from="1669479721460" duration="9737000" />
+      <workItem from="1669749210194" duration="24562000" />
+      <workItem from="1670000451283" duration="18474000" />
+      <workItem from="1670319000986" duration="19330000" />
+      <workItem from="1670598763642" duration="18306000" />
+      <workItem from="1670871585109" duration="23019000" />
+      <workItem from="1671020245871" duration="43282000" />
+      <workItem from="1671209742805" duration="2299000" />
     </task>
     <task id="LOCAL-00001" summary="check">
       <created>1668255083446</created>
@@ -51,7 +90,42 @@
       <option name="project" value="LOCAL" />
       <updated>1668255083446</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="check">
+      <created>1668255540540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668255540540</updated>
+    </task>
+    <task id="LOCAL-00003" summary="check">
+      <created>1668256148434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668256148434</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add part 1">
+      <created>1668256339416</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668256339416</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add changes in p1">
+      <created>1668675627063</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668675627063</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add temp files">
+      <created>1669492210454</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669492210455</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,6 +144,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="check" />
-    <option name="LAST_COMMIT_MESSAGE" value="check" />
+    <MESSAGE value="Add part 1" />
+    <MESSAGE value="add changes in p1" />
+    <MESSAGE value="add temp files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add temp files" />
   </component>
 </project>
