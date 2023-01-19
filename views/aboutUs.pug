@@ -1,0 +1,39 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    link(rel='stylesheet' href='css/PiggyBankCSS.css')
+    title aboutUsPage
+    script(defer, src='https://kit.fontawesome.com/8f059f76f5.js' crossorigin='anonymous')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    script(defer, src='JS/PiggyBank.js')
+header.navbar
+    a.nav(href='http://localhost:8080/PiggyBank.html')
+        i.fa.fa-fw.fa-home
+        |  Home
+    a.nav(href='http://localhost:8080/aboutUs.html')
+        i.fas.fa-users
+        |  About US
+    a.nav(href='http://localhost:8080/ContactUs.html')
+        i.fa.fa-fw.fa-envelope
+        |  Contact US
+body(class="Clean")
+    .FormContactUs(style='display: inline-flex')
+        .PicDiv1
+            img.picturesMain(src='/Pictures/PiggyLogo.png' style='display: block' alt='Piggy Accounting' width='90%' height='20%')
+            img.picturesMain(src='/Pictures/Screen%20Shot%202022-11-29%20at%2021.49.01.png' alt='Piggy Accounting' width='60%' height='50%')
+            br
+            img.picturesMain(src='/Pictures/PiggyPlant.png' alt='Piggy Accounting' width='50%' height='50%')
+        .PiggyAbout
+            p
+                | Piggy Bank Accounting is a new startup that helps people save alot of cash.
+                i.fas.fa-calculator
+            p
+                | We believe that every user has a chance to save up to 25% of their spending&apos;s
+                i.fas.fa-lightbulb
+            p
+                | Join us and let us save you money.
+                i.fas.fa-comment-dollar
+        .PicDiv
+            img.picturesMain(src='/Pictures/Piggy%20stamp.png' alt='Piggy Accounting' width='80%' height='100%')
+footer
+    p.copyright Piggy Bank Accounting &copy; 2022
