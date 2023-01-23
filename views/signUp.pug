@@ -1,0 +1,45 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    link(rel='stylesheet' href='css/PiggyBankCSS.css')
+    title SignUpPage
+    script(defer='' src='https://kit.fontawesome.com/8f059f76f5.js' crossorigin='anonymous')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    script(defer='' src='JS/PiggyBank.js')
+header.navbar
+    a.nav(href='http://localhost:3000/piggyBank')
+        i.fa.fa-fw.fa-home
+        |  Home
+    a.nav(href='http://localhost:3000/aboutUs')
+        i.fas.fa-users
+        |  About US
+    a.nav(href='http://localhost:3000/contactUs')
+        i.fa.fa-fw.fa-envelope
+        |  Contact US
+body(class="Clean")
+    .Form
+        .FormDiv
+            img.picturesMain(src='/Pictures/PiggyLogo.png' alt='Piggy Accounting' width='50%' height='10%')
+            p.textTour2
+                | #{v1}
+                | Please fill in the required information:
+                br
+            form.SignUpForm(action='/SignUp' name='SignUpForm' method='post')
+                label(for='firstname') First Name:
+                input#firstname(style='text-align:left' type='text' placeholder='Please insert your first name' name='firstname' onblur="checkName('firstname')" required='')
+                label(for='lastname') Last Name:
+                input#lastname(style='text-align:left' type='text' placeholder='Please insert your last name' name='lastname' onblur="checkName('lastname')" required='')
+                label(for='phonenumber') Phone Number:
+                input#phonenumber(style='text-align:left' type='number' placeholder='Please insert your phone number' name='phonenumber' onblur="checkPhone('phonenumber')" required='')
+                label(for='email') Email:
+                input#email(style='text-align:left' type='email' placeholder='Please insert your email' name='email' required='')
+                label(for='password') password:
+                input#password(style='text-align:left' type='password' placeholder='Please insert your password' name='password' required='')
+                input(type='submit' class='subButton' onclick='submitSignup()' value='SignUp')
+            img.picturesMain(src='/Pictures/Case.png' alt='Piggy Accounting' width='10%' height='10%')
+            br
+        .PicDiv
+            img.picturesMain(src='/Pictures/Piggy%20stamp.png' alt='Piggy Accounting' width='80%' height='100%')
+
+footer
+    p.copyright Piggy Bank Accounting &copy; 2022

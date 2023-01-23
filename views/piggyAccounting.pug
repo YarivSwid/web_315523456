@@ -1,0 +1,221 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    title ContactUs
+    meta(charset='UTF-8')
+    script(defer='' src='https://kit.fontawesome.com/8f059f76f5.js' crossorigin='anonymous')
+    link(rel='stylesheet' href='css/PiggyBankCSS.css')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    script(defer='' src='JS/PiggyBank.js')
+header.navbar
+    a.nav(href='http://localhost:3000/piggyAccounting')
+        i.fas.fa-balance-scale-right
+        |  Piggy Accounting
+    a.nav(href='http://localhost:3000/piggyBank')
+        i.fa.fa-fw.fa-home
+        |  Logout
+body(class="Clean" onload = "updateSummaryTable()")
+    #showAnalytics
+        p(style='display: inline')
+            | Click here to view Piggy Analytics Dashboard :
+        button(style='display: inline' onclick='openAnalytics()')
+            i.fas.fa-funnel-dollar
+            | Piggy Analytics
+    #showAccounting
+        p(style='display: inline')
+            | Click here to insert and view the Piggy Accounting tables :
+        button(style='display: inline' type='button' onclick='openAnalytics()')
+            i.fas.fa-balance-scale
+            | Piggy Accounting
+    #accounting
+        .InertAcc(style='display: grid')
+            .AccountingPar(style='display: inline')
+                img.picturesMain(src='/Pictures/PiggyLogo.png' alt='Piggy Accounting' width='40%' height='20%')
+                p.textTour2
+                    | Please insert your incomes and expenses
+                    br
+                    |  so we can help you save money.
+                    i.fas.fa-comment-dollar
+            .myForm
+                form.AccForm(action='/insertAcc' style='text-align:left' name='AccForm' method='post')
+                    label(for='Name') Name:
+                    br
+                    input#Name(style='text-align:left' type='text' name='Name' placeholder='Please insert the name of the product' minlength='2' required='')
+                    br
+                    label(for='Date') Date:
+                    br
+                    input#Date(style='text-align:left' type='date' name='Date' placeholder='please use this format: mm/dd/yy (example: 01/01/22)' required='')
+                    br
+                    label(for='Store') Store:
+                    br
+                    input#Store(style='text-align:left' type='text' name='Store' placeholder='Please insert the store of the purchase' required='')
+                    br
+                    label(for='Payment') Payment:
+                    br
+                    input#Payment(style='text-align:left' type='number' name='Payment' placeholder='Please insert the amount of payment' required='')
+                    br
+                    label(for='Type') Type:
+                    br
+                    select#Type(name='Type')
+                        option Expense
+                        option Income
+                    br
+                    label(for='Category') Category:
+                    br
+                    select#Category(name='Category')
+                        option Food
+                        option Technology
+                        option Friends
+                        option Restaurants
+                        option Shopping
+                        option Clothing
+                        option Sport
+                        option Home
+                        option Study
+                        option Wellbeing
+                    br
+                    label(for='Essential') Essential:
+                    br
+                    select#Essential(name='Essential')
+                        option Yes
+                        option No
+                    br
+                    input(type='submit' class="subButton" value='Submit' /*onclick='accSubmit()'*/)
+        section
+            h1 Accounting Table
+            .tbl-header(style="max-height: 400px; overflow-y: scroll;")
+                table
+                    thead
+                        tr
+                            th ID
+                            th Name
+                            th Type
+                            th Date
+                            th Essential
+                            th Store
+                            th Category
+                            th Payment
+                    tbody#AccountingTable.scrollable-table
+                        each i in ResArray
+                            tr
+                                td=i.id
+                                td=i.theName
+                                td=i.theType
+                                - let date = new Date(i.theDate);
+                                - let formattedDate = date.toLocaleDateString('en-GB', { month: '2-digit', day: '2-digit', year: 'numeric' });
+                                td=formattedDate
+                                td=i.essential
+                                td=i.theStore
+                                td=i.theCategory
+                                td=i.thePayment
+        section
+            h1 Accounting Table Summary
+            .tbl-header
+                table(cellpadding='0' cellspacing='0' border='0')
+                    thead
+                        tr
+                            th Balance
+                            th Sum of Payments
+                            th Number of Not Essential Expenses
+                            th Number of Essential Expenses
+                            //
+                              <th>Number of Stores</th>
+                            th Paments this month
+                            th Number of Expenses this Month
+            .tbl-content
+                table(cellpadding='0' cellspacing='0' border='0')
+                    tbody#summaryTable
+                        tr
+                            td 0
+                            td 0
+                            td 0
+                            td 0
+                            td 0
+                            td 0
+    #analytics
+        .grid-item
+            img.picturesMain(src='/Pictures/PiggyPlant.png' alt='Piggy Analytics' width='100px' height='100px')
+            h2.KpiHeader
+                i.fas.fa-balance-scale-right
+                |  Recurring Expenses:
+            p.paragraph(style='display: inline')
+                | watch how many expenses you did this month,
+                br
+                |   compared to last month
+                br
+            br
+            h2#RecurringExpenses.KPI
+                | 0%
+                i.fas.fa-funnel-dollar
+        .grid-item
+            img.picturesMain(src='/Pictures/Cash.png' alt='Piggy Accounting' width='100px' height='100px')
+            h2.KpiHeader
+                i.fas.fa-balance-scale-right
+                |  The Category With Most Expenses:
+            p.paragraph(style='display: inline')
+                | Watch what is the category,
+                br
+                |   you spend the most money
+                br
+            br
+            h2#TheCategoryWithMostExpenses.KPI
+                | Null
+                i.fas.fa-comment-dollar
+        .grid-item
+            img.picturesMain(src='/Pictures/PiggyBook.png' alt='Piggy Accounting' width='100px' height='100px')
+            h2.KpiHeader
+                i.fas.fa-balance-scale-right
+                |  Non Essential Expenses Percentage:
+            p.paragraph(style='display: inline')
+                | watch what is the percentage of not essential expenses,
+                br
+                |   from all your expenses
+                br
+            br
+            h2#NotEssentialExpensesPercentage.KPI
+                | 0%
+                i.fas.fa-funnel-dollar
+        .grid-item
+            img.picturesMain(src='/Pictures/Calculator.png' alt='Piggy Analytics' width='100px' height='100px')
+            h2.KpiHeader
+                i.fas.fa-balance-scale-right
+                |  Recurring Not Essential Expenses:
+            p.paragraph(style='display: inline')
+                | watch how many expenses you did this month,
+                br
+                |   compared to last month when it wasnt essential
+                br
+            br
+            h2#RecurringNotEssentialExpenses.KPI
+                | 0%
+                i.fas.fa-funnel-dollar
+        .grid-item
+            img.picturesMain(src='/Pictures/Moznaim.png' alt='Piggy Accounting' width='100px' height='100px')
+            h2.KpiHeader
+                i.fas.fa-balance-scale-right
+                |  Recurring Number of Expenses
+            p.paragraph(style='display: inline')
+                | watch what is the number of expenses you did this month,
+                br
+                |   compared to last month
+                br
+            br
+            h2#RecurringNumberofExpenses.KPI
+                | 0
+                i.fas.fa-funnel-dollar
+        .grid-item
+            img.picturesMain(src='/Pictures/Case.png' alt='Piggy Accounting' width='100px' height='100px')
+            h2.KpiHeader
+                i.fas.fa-balance-scale-right
+                |  Recurring Savings
+            p.paragraph(style='display: inline')
+                | watch how many incomes you had this month,
+                br
+                |   compared to last month
+                br
+            br
+            h2#RecurringSavings.KPI
+                | 0%
+                i.fas.fa-funnel-dollar
+footer
+    p.copyright Piggy Bank Accounting &copy; 2022

@@ -1,0 +1,66 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    title PiggyBankHomePage
+    script(defer='' src='https://kit.fontawesome.com/8f059f76f5.js' crossorigin='anonymous')
+    link(rel='stylesheet' href='css/PiggyBankCSS.css')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    script(defer,src='JS/PiggyBank.js')
+header.navbar
+    a.nav(href='http://localhost:3000/piggyBank')
+        i.fa.fa-fw.fa-home
+        |  Home
+    a.nav(href='http://localhost:3000/aboutUs')
+        i.fas.fa-users
+        |  About US
+    a.nav(href='http://localhost:3000/contactUs')
+        i.fa.fa-fw.fa-envelope
+        |  Contact US
+body(class="Clean")
+    #LoginSignUp(style='display: inline')
+        p.TextForPiggyWelcome
+            | #{v1}
+
+
+
+        button#LoginButton.butt(onclick='openForm()') Login
+        button.butt(onclick="location.href='http://localhost:3000/signUp';") Sign Up
+    #gridContainer(style='display: none;margin-top: 10%')
+        div
+            form.LoginForm(action='/Login' name='myForm' method='post')
+                p
+                  |  #{v2}
+                label(for='email') Email:
+                br
+                input#email(style='text-align:left' type='email' name='email' placeholder='Please insert your email' required='')
+                br
+                label(for='password') Password:
+                br
+                input#password(style='text-align:left' type='password' name='password' placeholder='Please insert your password' minlength='8' required='')
+                br
+                input(type='submit' class='subButton' value='Submit' onclick='submitFormLogin()')
+            p.textTour2(style='display: inline')  Doesnt have account? then:
+            button.SignupButton(onclick="location.href='http://localhost:3000/signUp'") Sign Up
+    #grid-container(style='display: inline')
+        .grid-item
+            img.picturesMain(src='Pictures/Dashboard.jpeg' style='display: block' alt='Piggy Analytics' width='25%' height='20%')
+            a.active(style='display: inline')
+                i.fas.fa-funnel-dollar
+                |  Piggy Analytics
+            p.homePic(style='display: inline')
+                | is a platform
+                br
+                |  &amp;nbsp &amp;nbsp &amp;nbsp that wil help you find interesting insights
+                br
+        .grid-item
+            img.picturesMain(src='Pictures/AccountingPro.jpeg' style='display: block' alt='Piggy Accounting' width='20%' height='4%')
+            a.active
+                i.fas.fa-balance-scale-right
+                |  Piggy Accounting
+            p.homePic(style='display: inline')
+                | will help you add expenses and incomes,
+                br
+                |  &amp;nbsp &amp;nbsp &amp;nbsp so we can help you with Piggy Accounting
+                br
+footer
+    p.copyright Piggy Bank Accounting &copy; 2022
