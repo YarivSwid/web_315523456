@@ -1,0 +1,21 @@
+Id,Email,Name,Date,Store,Payment,Type,Category,Essential,Timestamp
+1,yari@gmail.com,Pasta,2023-01-01,Pasta Basta,70,Expense,Food,No,2023-01-21T10:56:31.000Z
+2,naama@gmail.com,shirt,2023-01-01,zara,150,Expense,Clothing,No,2023-01-21T10:56:31.000Z
+3,ivgeny@walla.com,shirt,2023-01-01,zara,150,Expense,Food,Yes,2023-01-21T10:56:31.000Z
+4,yari@gmail.com,shirt,2023-01-01,zara,122,Expense,Clothing,No,2023-01-21T10:56:31.000Z
+5,yari@gmail.com,Basketball,2022-01-01,Nike,31,Expense,Sport,No,2023-01-21T10:56:31.000Z
+6,yari@gmail.com,shirt,2022-01-01,zara,150,Expense,Clothing,Yes,2023-01-21T10:56:31.000Z
+7,yari@gmail.com,Shooes,2022-01-01,Adidas,350,Expense,Clothing,No,2023-01-21T10:56:31.000Z
+8,yari@gmail.com,Jeans,2022-01-01,zara,200,Expense,Clothing,Yes,2023-01-21T10:56:31.000Z
+9,yari@gmail.com,Pizza,2022-01-01,Papa Jones,199,Expense,Food,No,2023-01-21T10:56:31.000Z
+10,yari@gmail.com,Birthday,2023-01-01,Bit,150,Income,Home,Yes,2023-01-21T10:56:31.000Z
+11,yari@gmail.com,shirt,2023-01-01,zara,70,Expense,Food,Yes,2023-01-21T10:56:31.000Z
+12,racheli@gmail.com,Car,2023-01-01,Audi,199000,Expense,Home,No,2023-01-21T10:56:31.000Z
+13,racheli@gmail.com,House,2022-12-12,Petah Tikva,155000,Expense,Home,Yes,2023-01-21T10:56:31.000Z
+14,racheli@gmail.com,Pizza,2023-01-01,Papa Jones,100,Expense,Food,Yes,2023-01-21T10:56:31.000Z
+15,racheli@gmail.com,Clothes,2022-12-12,Zara,400,Expense,Clothing,No,2023-01-21T10:56:31.000Z
+16,racheli@gmail.com,Sushi,2023-01-01,Soho,230,Expense,Food,Yes,2023-01-21T10:56:31.000Z
+17,racheli@gmail.com,Basketball,2022-12-12,Nike,199,Expense,Sport,No,2023-01-21T10:56:31.000Z
+18,racheli@gmail.com,Bit from Maya,2023-01-01,Bit,100,Income,Home,Yes,2023-01-21T10:56:31.000Z
+19,racheli@gmail.com,Bit from Maya,2022-12-12,Bit,199,Income,Home,No,2023-01-21T10:56:31.000Z
+20,racheli@gmail.com,Bit from Naama,2023-01-01,Bit,30,Income,Home,Yes,2023-01-21T10:56:31.000Z

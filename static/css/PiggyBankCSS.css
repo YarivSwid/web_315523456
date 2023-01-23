@@ -1,0 +1,538 @@
+
+body {
+    background-image: url("/Pictures/CanvaBackground.png"); /* The image used */
+}
+body.PiggyBank {
+    background-image: url("/Pictures/CanvaBackground.png"); /* The image used */
+}
+body.green {
+    background-image: url("/Pictures/images.png"); /* The image used */
+}
+body.Clean{
+    background-image: none;
+
+}
+
+.InertAcc{
+    margin-top: 5%;
+    display:grid;
+    margin-left: 100px;
+    grid-template-areas: 'div div';
+}
+.AccountingPar >p{
+    margin: 0;
+    margin-left: 1%;
+    font-size: 30px;
+    color: darkgreen;
+    font-weight: bold;
+}
+body.Accounting{
+    /*
+    background-image: url("../static/Pictures/Bricks screen.jpeg"); !* The image used *!
+    */
+    background-size: 100%;
+    background-image: none;/*url("../static/Pictures/CleanScreen.png"); !* The image used *!*/
+
+}
+
+*{
+    text-decoration: none;
+    margin-top: 1px;  /* An absolute length */
+    font-family: Calibri, Helvetica, Arial;
+    box-sizing: border-box;
+}
+input{
+    width: 30%;
+}
+h1 {
+    color: lightseagreen;
+}
+header.navbar {
+    text-align: center;
+}
+
+a.nav {
+    padding: 5px;
+    color: #27c027;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+    font-size:50px;
+    font-weight: bold;
+}
+.TextForPiggyWelcome{
+    margin-top: 120px;
+}
+p{
+    margin-left: 8%;
+    padding: 5px;
+    font-size:25px;
+}
+#LoginButton{
+    margin-left: 10%;
+}
+
+#grid-container div{
+    margin-left: 10%;
+    margin-top: 1%;
+}
+#analytics{
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.navbar {
+    background-color: aliceblue;
+    width: 100%;
+    /*
+    background-color: #555;
+    */
+    top: 0;
+    overflow: auto;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    color: black;
+}
+.PiggyAbout{
+    margin-top:10%;
+}
+
+.navbar > a:hover{
+    color:white;
+    background-color: #a3d5a3;
+}
+button {
+    background-color: #52796f;
+    padding: 5px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+}
+.butt {
+    position: relative;
+    animation: butt;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration: 0.5s
+;
+}
+.butt:hover {
+    background-color: #96ffa3;
+    box-shadow: 0 5px rgb(25, 25, 25);
+    transform: rotateZ(360deg);
+}
+@keyframes butt {
+    0%{
+        left: -100px;
+        color: black;
+
+    }
+    100%{
+        left: 0px;
+        color: white;
+    }
+}
+.active:hover{
+    color:white;
+    background-color: #a3d5a3;
+    padding: 5px 20px;
+    margin: 8px 0;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: #84a88c;
+    color: #1c2a2d;
+    transform: rotateZ(360deg);
+
+}
+
+.titleReg{
+    /*
+    text-align: center;
+    */
+    display: grid;
+    text-align: center;
+    align: center;
+}
+.SignUpForm{
+    display: grid;
+}
+.SignUpForm>input{
+    width: 100%;
+}
+#FormDiv{
+    margin-left: 6%;
+    margin-right: 60%;
+    margin-top: 8%;
+    text-align: left;
+}
+.textTour2{
+    margin-left: 1%;
+    /*
+    margin-right: 10%;
+    */
+    margin-top: 8%;
+    text-align: left;
+}
+.Aggregation{
+    margin-top: 50px;
+    font-weight: bold;
+
+}
+
+.Aggregation > h2{
+    color: #cec95e;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.Aggregation>p{
+    color: #27c027;
+}
+.Form {
+    display: grid;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.FormContactUs {
+    display: grid;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.FormContactUs p{
+    color: #aaa;
+}
+.PicDiv {
+    grid-column-strt: 1;
+    grid-column-end: 5 ;
+}
+.FormDiv {
+    grid-column-strt: 0;
+    grid-column-end: 1;
+}
+
+.textTour2 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 7%;
+}
+.LoginForm{
+    margin-left: 8%;
+}
+.SignupButton{
+    padding: 5px 100px;
+}
+
+
+ footer {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+    width: 100%;
+    bottom: 0;
+    overflow: auto;
+    display:flex;
+    justify-content: center;
+    position: fixed;
+ }
+
+a.active {
+    padding: 5px;
+    color: #27c027;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ .email{
+     text-align: center;
+     color: #aaa;
+     font-size: 20px;
+ }
+p.homePic{
+     margin-left: 0px;
+ }
+
+.grid-container {
+    margin-left: 5%;
+    margin-top: 10%;
+    display: grid;
+    gap: 10px;
+    row-gap: 15%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+
+}
+#analytics{
+    margin-left: 5%;
+    margin-top: 5%;
+    display: grid;
+    gap: 10px;
+    row-gap: 15%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+
+}
+.grid-item > p {
+    font-size: 20px;
+}
+.KpiHeader{
+    color: #27c027;
+    font-size: 20px;
+}
+
+
+h1{
+    font-size: 40px;
+    color: #52796f;
+    text-transform: uppercase;
+    font-weight: 5000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+table{
+    width:100%;
+    table-layout: fixed;
+    /*background-color: limegreen;*/
+    background: linear-gradient(95deg, rgb(216, 234, 176), rgb(176, 213, 171))
+
+}
+.tbl-header{
+    background-color: rgba(255,255,255,3);
+}
+.tbl-content{
+    height:300px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    text-transform: uppercase;
+}
+td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #000000;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+.AccForm > input{
+    width: 75%;
+
+}
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+}
+section{
+    margin: 50px;
+}
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #f1e5e5;
+    outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+    border-color: purple;
+}
+input[type='password'] {
+    box-sizing: border-box;
+    display: inline-block;
+    transition: .2s;
+}
+#showAccounting{
+    margin-top:50px;
+    display: none;
+}
+#showAnalytics{
+    margin-top:50px;
+    display: block;
+}
+#analytics{
+    display:none;
+
+}
+#accounting{
+    display:block;
+}
+.paragraph{
+ color: #1c4e50;
+    margin-left: 0;
+    text-align: left;
+}
+.KPI{
+ color: #6181ff;
+    text-align: center;
+}
+@media only screen and (max-width: 1000px){
+    .gridContainer > p{
+        font-size: 10px;
+    }
+    p,h1,button{
+        font-size: 10px;
+    }
+    tbl-header,table,tr,th,td{
+        font-size: 10px;
+    }
+
+    .grid-item > p{
+        font-size:12px ;
+    }
+    .grid-item > h2{
+        font-size:20px;
+    }
+    .AccountingPar > p{
+        font-size:20px;
+    }
+    .AccountingPar > p {
+        font-size: 20px;
+    }
+    .SignUpForm > p{
+        font-size:10px;
+    }
+    .LoginForm > input{
+        font-size: 10px;
+    }
+    .LoginForm > button{
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+    .LoginForm{
+        margin-top: 25%;
+    }
+    .SignupButton{
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    p, h1, button {
+        font-size: 8px;
+    }
+    .grid-item > p{
+        font-size:10px ;
+    }
+    .grid-item > h2{
+        font-size:15px;
+    }
+    .AccountingPar > p{
+        font-size:15px;
+    }
+    .AccountingPar > p{
+        font-size:15px;
+    }
+
+    tbl-header, table, tr, th, td {
+        font-size: 8px;
+    }
+}
+.activeNow{
+    background-color: #f0ffae;
+}
+
+.subButton{
+    background-color: #6fcbb1;
+    padding: 5px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+}
+.subButton:hover {
+    color: white;
+    background-color: #ea7a4a;
+    box-shadow: 0 5px rgb(25, 25, 25);
+    transform: rotateZ(360deg);
+}
+
+thead {
+    position: sticky;
+    top: 0;
+}
+
+thead th:first-child {
+    position: sticky;
+    left: 0;
+}
+.results{
+    margin-top: 15%;
+}
+.result{
+    margin-left: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
