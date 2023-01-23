@@ -10,6 +10,7 @@ const CRUD = require('./DB/CRUD');
 const cookieParser = require('cookie-parser');
 const createDB = require('./DB/createDB');
 
+
 app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({extended:true}));
