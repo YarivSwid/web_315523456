@@ -1,9 +1,12 @@
 # web_315523456
 Yariv Swid:
 #Note for testins:
-I created a user for checks: 
+I created a user for checks:
+
 Email: Racheli@gmail.com
+
 Password: 12345678
+
 Some of the KPI's that I created are reccuring KPI's so in order to watch them correctly there should be data of the current month + the month before.
 
 Welcome to Piggy Bank! this is the home page
