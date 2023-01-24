@@ -1,0 +1,25 @@
+The modules that I used:
+express,mysql2,body-parser,cookie-parser,path,csvtojson
+
+Paths:
+-- drop tables
+/dropTables -- will drop all the tables
+
+--create tables
+/createTables -- will create all the tables
+
+-- show tables
+/showTableAccountings -- will show the data of accountings
+/showTableUsers -- will show the data of Users
+/showTableContactUs -- will show the data of ContactUs table
+
+-- insert to the tables
+/insertAccountings -- will insert the data into accountings table
+/insertUsers -- will insert the data into users table
+/insertContactUs -- will insert the data into ContactUs table
+
+Create tables:
+-- Create table Syntax
+CREATE TABLE IF NOT EXISTS accountings (id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,email VARCHAR(255),theName VARCHAR(255),theDate DATE,theStore VARCHAR(255), thePayment BIGINT,theType VARCHAR(255),theCategory VARCHAR(255),essential VARCHAR(255), TimeStamp TIMESTAMP)
+CREATE TABLE IF NOT EXISTS users (id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,firstName VARCHAR(255),lastName VARCHAR(255),phoneNumber bigint, email VARCHAR(255),password VARCHAR(255), TimeStamp TIMESTAMP)
+CREATE TABLE IF NOT EXISTS contactUs (id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,firstName VARCHAR(255),lastName VARCHAR(255), email VARCHAR(255),text VARCHAR(255), TimeStamp TIMESTAMP)
