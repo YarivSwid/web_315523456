@@ -62,7 +62,7 @@ app.get('/signUp',(req,res)=>{
 });
 app.get('/piggyBank',(req,res)=>{
     let Signed_user_name = req.cookies.Signed_user_name;
-    if(Signed_user_name.length >1) {
+    if(Signed_user_name != undefined) {
         res.render('piggyBank', {
             v1:
                 "Hey, " + Signed_user_name + " please click on Login and sign in ! ",
