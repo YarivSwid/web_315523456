@@ -19,3 +19,12 @@ Id,Email,Name,Date,Store,Payment,Type,Category,Essential,Timestamp
 18,racheli@gmail.com,Bit from Maya,2023-01-01,Bit,100,Income,Home,Yes,2023-01-21T10:56:31.000Z
 19,racheli@gmail.com,Bit from Maya,2022-12-12,Bit,199,Income,Home,No,2023-01-21T10:56:31.000Z
 20,racheli@gmail.com,Bit from Naama,2023-01-01,Bit,30,Income,Home,Yes,2023-01-21T10:56:31.000Z
+21,racheli@gmail.com,Car,2023-03-03,Audi,199000,Expense,Home,No,2023-01-21T10:56:31.000Z
+22,racheli@gmail.com,House,2023-02-02,Petah Tikva,155000,Expense,Home,Yes,2023-01-21T10:56:31.000Z
+23,racheli@gmail.com,Pizza,2023-03-03,Papa Jones,100,Expense,Food,Yes,2023-01-21T10:56:31.000Z
+24,racheli@gmail.com,Clothes,2023-02-02,Zara,400,Expense,Clothing,No,2023-01-21T10:56:31.000Z
+25,racheli@gmail.com,Sushi,2023-03-03,Soho,230,Expense,Food,Yes,2023-01-21T10:56:31.000Z
+26,racheli@gmail.com,Basketball,2023-02-02,Nike,199,Expense,Sport,No,2023-01-21T10:56:31.000Z
+27,racheli@gmail.com,Bit from Maya,2023-03-03,Bit,100,Income,Home,Yes,2023-01-21T10:56:31.000Z
+28,racheli@gmail.com,Bit from Maya,2023-02-02,Bit,199,Income,Home,No,2023-01-21T10:56:31.000Z
+29,racheli@gmail.com,Bit from Naama,2023-03-03,Bit,30,Income,Home,Yes,2023-01-21T10:56:31.000Z
